@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zaid's profile</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <div class="profile">
+          <img src="./images/profile-pic.png" alt="profile-pic" srcset="" />
+        </div>
+
+        <h2>Zaid Khan</h2>
+
+        <p class="intro">Frontend web developer</p>
+
+        <div class="connections">
+          <a href="https://www.instagram.com/__mdzaid_/" target="_blank">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/md-zaid-726a43269/"
+            target="_blank"
+            ><i class="ri-linkedin-box-line"></i>
+          </a>
+          <a href="https://t.me/mdzaidkhan" target="_blank">
+            <i class="ri-telegram-line"></i>
+          </a>
+          <a href="https://github.com/zaidcodes72" target="_blank">
+            <i class="ri-github-line"></i>
+          </a>
+        </div>
+
+        <div class="info">
+          <div class="boxes">
+            <h3>2</h3>
+            <p>Years of</p>
+            <p>Work</p>
+          </div>
+
+          <div class="boxes">
+            <h3>5</h3>
+            <p>Completed</p>
+            <p>Projects</p>
+          </div>
+
+          <div class="boxes">
+            <h3>0</h3>
+            <p>satisfied</p>
+            <p>Customers</p>
+          </div>
+        </div>
+        <div class="button">
+          <div class="btn">
+            <a href="#" download class="btn-download">
+              Download CV <i class="ri-file-download-line"></i
+            ></a>
+          </div>
+
+          <div class="links">
+            <div class="inner--links">
+              <a href=""><i class="ri-whatsapp-line"></i></a>
+            </div>
+            <div class="inner--links">
+              <a href=""><i class="ri-messenger-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="Filter-tabs">
+          <a href="#Projects" id="activeprojects" onclick="scrollToProjects()">
+            <button
+              onclick="toggleSection('projects'); button('activeprojects');"
+              class="filter-buttons"
+            >
+              Projects
+            </button>
+          </a>
+
+          <a href="#Skills" id="activeskills" onclick="scrollToSkills()">
+            <button
+              onclick="toggleSection('skills'); button('activeskills');"
+              class="filter-buttons"
+            >
+              Skills
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-section" id="projects">
+        <div class="project-carts" id="">
+          <img src="./images/img1.jpg" alt="portfolio site" />
+          <div class="project-cover">
+            <div class="project-content">
+              <h3>Portfolio site</h3>
+              <a href="#"><i class="ri-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-carts">
+          <img src="./images/img2.jpg" alt="Restaurant Site" />
+          <div class="project-cover">
+            <div class="project-content">
+              <h3>Restaurant Site</h3>
+              <a href="#"><i class="ri-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-carts">
+          <img src="./images/img3.jpg" alt="Gym Site" />
+          <div class="project-cover">
+            <div class="project-content">
+              <h3>Gym Site</h3>
+              <a href="#"><i class="ri-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-carts">
+          <img src="./images/img4.jpg" alt="Music Site" />
+          <div class="project-cover">
+            <div class="project-content">
+              <h3>Music Site</h3>
+              <a href="#"><i class="ri-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-section" id="skills">
+        <h1>Currently acquired Skills</h1>
+
+        <div class="skills-container">
+          <section>
+            <div class="logo-folder">
+              <img src="./images/html.svg" alt="HTML Logo" class="logo" />
+              <h2>HTML</h2>
+            </div>
+
+            <div class="meter">
+              <div class="progress" style="width: 65%"></div>
+              <div class="percentage">65%</div>
+            </div>
+          </section>
+
+          <section>
+            <div class="logo-folder">
+              <img src="./images/css.svg" alt="CSS Logo" class="logo" />
+              <h2>CSS</h2>
+            </div>
+
+            <div class="meter">
+              <div class="progress" style="width: 80%"></div>
+              <div class="percentage">80%</div>
+            </div>
+          </section>
+
+          <section>
+            <div class="logo-folder">
+              <img
+                src="./images/javascript.svg"
+                alt="Javascript Logo"
+                class="logo"
+              />
+              <h2>Javascript</h2>
+            </div>
+
+            <div class="meter">
+              <div class="progress" style="width: 40%"></div>
+              <div class="percentage">40%</div>
+            </div>
+          </section>
+
+          <section>
+            <div class="logo-folder">
+              <img
+                src="./images/bootstrap.svg"
+                alt="Bootstrap Logo"
+                class="logo"
+              />
+              <h2>Bootstrap</h2>
+            </div>
+
+            <div class="meter">
+              <div class="progress" style="width: 60%"></div>
+              <div class="percentage">60%</div>
+            </div>
+          </section>
+
+          <section>
+            <div class="logo-folder">
+              <img
+                src="./images/tailwindcss.svg"
+                alt="Tailwindcss Logo"
+                class="logo"
+              />
+              <h2>Tailwind CSS</h2>
+            </div>
+
+            <div class="meter">
+              <div class="progress" style="width: 50%"></div>
+              <div class="percentage">50%</div>
+            </div>
+          </section>
+
+          <section>
+            <div class="logo-folder">
+              <img src="./images/git.svg" alt="Git Logo" class="logo" />
+              <h2>Git</h2>
+            </div>
+
+            <div class="meter">
+              <div class="progress" style="width: 40%"></div>
+              <div class="percentage">40%</div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2023 Zaid Khan. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
